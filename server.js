@@ -28,9 +28,9 @@ const express = require('express'),
     app.use(express.static(__dirname + '/dist'));
 
     //PathLocationStrategy
-    // app.get('/*', function(req, res) {
-    //   res.sendFile(path.join(__dirname + '/dist/index.html'));
-    // })
+    app.get('/*', function(req, res) {
+      res.sendFile(path.join(__dirname + '/dist/index.html'));
+    })
 
     app.use(bodyParser.urlencoded({extended: false}));
     app.use(bodyParser.json());

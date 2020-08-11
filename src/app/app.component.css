@@ -97,6 +97,10 @@ footer{
 	background-color: #bb0000;
 }
 
+.linkedin span{
+  background-color: #0077b5;
+}
+
 .icon-button .icon-twitter {
 	color: #4099ff;
 }
@@ -105,6 +109,10 @@ footer{
 	color: #bb0000;
 }
 
-.icon-button:hover .icon-twitter, .icon-button:hover .fa-youtube{
+.icon-button .fa-linkedin{
+  color:#0077b5;
+}
+
+.icon-button:hover .icon-twitter, .icon-button:hover .fa-youtube, .icon-button:hover .fa-linkedin{
   color: white;
 }
